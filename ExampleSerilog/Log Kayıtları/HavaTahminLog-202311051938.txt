@@ -1,0 +1,11 @@
+2023-11-05 19:38:58.298 +03:00 [INF] Now listening on: https://localhost:7072
+2023-11-05 19:38:58.336 +03:00 [INF] Now listening on: http://localhost:5233
+2023-11-05 19:38:58.341 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-05 19:38:58.342 +03:00 [INF] Hosting environment: Development
+2023-11-05 19:38:58.342 +03:00 [INF] Content root path: C:\Users\byblu\Desktop\YAZILIM\ASP.NET Projeler\ExampleSerilog\ExampleSerilog
+2023-11-05 19:38:59.381 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/swagger/index.html - -
+2023-11-05 19:38:59.667 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/swagger/index.html - - - 200 - text/html;charset=utf-8 292.8687ms
+2023-11-05 19:38:59.676 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - -
+2023-11-05 19:38:59.676 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_vs/browserLink - -
+2023-11-05 19:38:59.709 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - - - 200 12360 application/javascript;+charset=utf-8 32.5044ms
+2023-11-05 19:38:59.725 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 48.6780ms

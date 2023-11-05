@@ -1,0 +1,36 @@
+2023-11-05 19:25:09.534 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/WeatherForecast - -
+2023-11-05 19:25:09.542 +03:00 [INF] Executing endpoint 'ExampleSerilog.Controllers.WeatherForecastController.Get (ExampleSerilog)'
+2023-11-05 19:25:09.543 +03:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[ExampleSerilog.WeatherForecast] Get() on controller ExampleSerilog.Controllers.WeatherForecastController (ExampleSerilog).
+2023-11-05 19:25:09.545 +03:00 [INF] Hava Tahminleri => [{"Date":"2023-11-06","TemperatureC":24,"TemperatureF":75,"Summary":"Hot","$type":"WeatherForecast"},{"Date":"2023-11-07","TemperatureC":39,"TemperatureF":102,"Summary":"Cool","$type":"WeatherForecast"},{"Date":"2023-11-08","TemperatureC":0,"TemperatureF":32,"Summary":"Balmy","$type":"WeatherForecast"},{"Date":"2023-11-09","TemperatureC":31,"TemperatureF":87,"Summary":"Sweltering","$type":"WeatherForecast"},{"Date":"2023-11-10","TemperatureC":20,"TemperatureF":67,"Summary":"Mild","$type":"WeatherForecast"}]
+2023-11-05 19:25:09.560 +03:00 [INF] Executing ObjectResult, writing value of type 'ExampleSerilog.WeatherForecast[]'.
+2023-11-05 19:25:09.561 +03:00 [INF] Executed action ExampleSerilog.Controllers.WeatherForecastController.Get (ExampleSerilog) in 15.9099ms
+2023-11-05 19:25:09.562 +03:00 [INF] Executed endpoint 'ExampleSerilog.Controllers.WeatherForecastController.Get (ExampleSerilog)'
+2023-11-05 19:25:09.562 +03:00 [INF] HTTP GET /WeatherForecast responded 200 in 20.7135 ms
+2023-11-05 19:25:09.564 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/WeatherForecast - - - 200 - application/json;+charset=utf-8 29.5246ms
+2023-11-05 19:25:22.829 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/WeatherForecast - -
+2023-11-05 19:25:22.832 +03:00 [INF] Executing endpoint 'ExampleSerilog.Controllers.WeatherForecastController.Get (ExampleSerilog)'
+2023-11-05 19:25:22.833 +03:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[ExampleSerilog.WeatherForecast] Get() on controller ExampleSerilog.Controllers.WeatherForecastController (ExampleSerilog).
+2023-11-05 19:25:22.835 +03:00 [INF] Hava Tahminleri => [{"Date":"2023-11-06","TemperatureC":17,"TemperatureF":62,"Summary":"Balmy","$type":"WeatherForecast"},{"Date":"2023-11-07","TemperatureC":20,"TemperatureF":67,"Summary":"Freezing","$type":"WeatherForecast"},{"Date":"2023-11-08","TemperatureC":42,"TemperatureF":107,"Summary":"Mild","$type":"WeatherForecast"},{"Date":"2023-11-09","TemperatureC":-7,"TemperatureF":20,"Summary":"Freezing","$type":"WeatherForecast"},{"Date":"2023-11-10","TemperatureC":-2,"TemperatureF":29,"Summary":"Scorching","$type":"WeatherForecast"}]
+2023-11-05 19:25:22.851 +03:00 [INF] Executing ObjectResult, writing value of type 'ExampleSerilog.WeatherForecast[]'.
+2023-11-05 19:25:22.852 +03:00 [INF] Executed action ExampleSerilog.Controllers.WeatherForecastController.Get (ExampleSerilog) in 17.3488ms
+2023-11-05 19:25:22.853 +03:00 [INF] Executed endpoint 'ExampleSerilog.Controllers.WeatherForecastController.Get (ExampleSerilog)'
+2023-11-05 19:25:22.854 +03:00 [INF] HTTP GET /WeatherForecast responded 200 in 22.5966 ms
+2023-11-05 19:25:22.856 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/WeatherForecast - - - 200 - application/json;+charset=utf-8 27.2844ms
+2023-11-05 19:25:24.231 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/WeatherForecast - -
+2023-11-05 19:25:24.233 +03:00 [INF] Executing endpoint 'ExampleSerilog.Controllers.WeatherForecastController.Get (ExampleSerilog)'
+2023-11-05 19:25:24.235 +03:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[ExampleSerilog.WeatherForecast] Get() on controller ExampleSerilog.Controllers.WeatherForecastController (ExampleSerilog).
+2023-11-05 19:25:24.240 +03:00 [INF] Hava Tahminleri => [{"Date":"2023-11-06","TemperatureC":29,"TemperatureF":84,"Summary":"Balmy","$type":"WeatherForecast"},{"Date":"2023-11-07","TemperatureC":22,"TemperatureF":71,"Summary":"Scorching","$type":"WeatherForecast"},{"Date":"2023-11-08","TemperatureC":52,"TemperatureF":125,"Summary":"Bracing","$type":"WeatherForecast"},{"Date":"2023-11-09","TemperatureC":28,"TemperatureF":82,"Summary":"Chilly","$type":"WeatherForecast"},{"Date":"2023-11-10","TemperatureC":40,"TemperatureF":103,"Summary":"Freezing","$type":"WeatherForecast"}]
+2023-11-05 19:25:24.253 +03:00 [INF] Executing ObjectResult, writing value of type 'ExampleSerilog.WeatherForecast[]'.
+2023-11-05 19:25:24.255 +03:00 [INF] Executed action ExampleSerilog.Controllers.WeatherForecastController.Get (ExampleSerilog) in 14.3708ms
+2023-11-05 19:25:24.257 +03:00 [INF] Executed endpoint 'ExampleSerilog.Controllers.WeatherForecastController.Get (ExampleSerilog)'
+2023-11-05 19:25:24.257 +03:00 [INF] HTTP GET /WeatherForecast responded 200 in 24.2237 ms
+2023-11-05 19:25:24.259 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/WeatherForecast - - - 200 - application/json;+charset=utf-8 27.5087ms
+2023-11-05 19:25:24.395 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/WeatherForecast - -
+2023-11-05 19:25:24.396 +03:00 [INF] Executing endpoint 'ExampleSerilog.Controllers.WeatherForecastController.Get (ExampleSerilog)'
+2023-11-05 19:25:24.397 +03:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[ExampleSerilog.WeatherForecast] Get() on controller ExampleSerilog.Controllers.WeatherForecastController (ExampleSerilog).
+2023-11-05 19:25:24.403 +03:00 [INF] Hava Tahminleri => [{"Date":"2023-11-06","TemperatureC":52,"TemperatureF":125,"Summary":"Sweltering","$type":"WeatherForecast"},{"Date":"2023-11-07","TemperatureC":47,"TemperatureF":116,"Summary":"Chilly","$type":"WeatherForecast"},{"Date":"2023-11-08","TemperatureC":-17,"TemperatureF":2,"Summary":"Scorching","$type":"WeatherForecast"},{"Date":"2023-11-09","TemperatureC":29,"TemperatureF":84,"Summary":"Sweltering","$type":"WeatherForecast"},{"Date":"2023-11-10","TemperatureC":-9,"TemperatureF":16,"Summary":"Warm","$type":"WeatherForecast"}]
+2023-11-05 19:25:24.420 +03:00 [INF] Executing ObjectResult, writing value of type 'ExampleSerilog.WeatherForecast[]'.
+2023-11-05 19:25:24.421 +03:00 [INF] Executed action ExampleSerilog.Controllers.WeatherForecastController.Get (ExampleSerilog) in 17.8919ms
+2023-11-05 19:25:24.422 +03:00 [INF] Executed endpoint 'ExampleSerilog.Controllers.WeatherForecastController.Get (ExampleSerilog)'
+2023-11-05 19:25:24.423 +03:00 [INF] HTTP GET /WeatherForecast responded 200 in 26.5288 ms
+2023-11-05 19:25:24.424 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/WeatherForecast - - - 200 - application/json;+charset=utf-8 28.8889ms

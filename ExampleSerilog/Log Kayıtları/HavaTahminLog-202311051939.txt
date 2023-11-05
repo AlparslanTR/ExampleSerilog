@@ -1,0 +1,11 @@
+2023-11-05 19:39:00.551 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/swagger/v1/swagger.json - -
+2023-11-05 19:39:00.702 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 151.4835ms
+2023-11-05 19:39:03.406 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/WeatherForecast - -
+2023-11-05 19:39:03.414 +03:00 [INF] Executing endpoint 'ExampleSerilog.Controllers.WeatherForecastController.Get (ExampleSerilog)'
+2023-11-05 19:39:03.425 +03:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[ExampleSerilog.WeatherForecast] Get() on controller ExampleSerilog.Controllers.WeatherForecastController (ExampleSerilog).
+2023-11-05 19:39:03.431 +03:00 [INF] Hava Tahminleri => [{"Date":"2023-11-06","TemperatureC":0,"TemperatureF":32,"Summary":"Warm","$type":"WeatherForecast"},{"Date":"2023-11-07","TemperatureC":18,"TemperatureF":64,"Summary":"Freezing","$type":"WeatherForecast"},{"Date":"2023-11-08","TemperatureC":38,"TemperatureF":100,"Summary":"Sweltering","$type":"WeatherForecast"},{"Date":"2023-11-09","TemperatureC":21,"TemperatureF":69,"Summary":"Mild","$type":"WeatherForecast"},{"Date":"2023-11-10","TemperatureC":10,"TemperatureF":49,"Summary":"Bracing","$type":"WeatherForecast"}]
+2023-11-05 19:39:03.465 +03:00 [INF] Executing ObjectResult, writing value of type 'ExampleSerilog.WeatherForecast[]'.
+2023-11-05 19:39:03.483 +03:00 [INF] Executed action ExampleSerilog.Controllers.WeatherForecastController.Get (ExampleSerilog) in 51.2969ms
+2023-11-05 19:39:03.484 +03:00 [INF] Executed endpoint 'ExampleSerilog.Controllers.WeatherForecastController.Get (ExampleSerilog)'
+2023-11-05 19:39:03.486 +03:00 [INF] HTTP GET /WeatherForecast responded 200 in 74.1103 ms
+2023-11-05 19:39:03.487 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/WeatherForecast - - - 200 - application/json;+charset=utf-8 81.0012ms
